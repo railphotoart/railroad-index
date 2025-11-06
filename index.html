@@ -293,18 +293,22 @@
 	  #letters li {
 	    display: inline-block;
 		padding: 10px;
-		font-size: 24px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 22px;
 		background-color: black;
 	  }
 	  
-	  #letters li a {
+	  #letters li:hover {
+		background-color: #ab2e24;
+		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+	  }
+	  
+	  #letters a {
 	    text-decoration: none;
 		color: white;
 	  }
 	  
-	  #letters li a:hover {
-	    font-weight: bold;
-	  }
 
       @media screen and (max-width: 1150px) {
         .topnav ul {
@@ -384,9 +388,8 @@
       }
 	  
 	  #letters li {
-		padding-top: 0;
-		padding-bottom: 0;
-		font-size: 20px;
+		font-size: 14px;
+		margin-bottom: 5px;
 	  }
     </style>
     </li>
@@ -399,8 +402,8 @@
         <ul>
           <li id="close">
             <a href="javascript:void(0);" id="close-icon" onclick="myFunction()">&#10005;</a>
-          <li class="red-border">
-            <a href="#">Browse Images</a>&vert;
+		  <li class="red-border">
+            <a href="#">Browse</a>&vert;
           </li>
           <li class="red-border">
             <a href="https://railphotoart.github.io/collections-page/">Collections</a>&vert;
@@ -412,42 +415,39 @@
             <a href="#">Locations</a>&vert;
           </li>
           <li class="red-border">
-            <a href="#">Railroads</a>&vert;
-          </li>
-          <li class="red-border">
-            <a href="">Subjects</a>
+            <a href="#">Railroads</a>
           </li>
         </ul>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"> &#9776; </a>
       </nav>
-      <h1>Browse Archive by Railroad</h1>
+      <h1>Browse Railroads</h1>
       <ul id="letters">
-        <li><a href="#index-a">A</a></li>
-        <li><a href="#index-b">B</a></li>
-        <li><a href="#index-c">C</a></li>
-        <li><a href="#index-d">D</a></li>
-        <li><a href="#index-e">E</a></li>
-		<li><a href="#index-f">F</a></li>
-		<li><a href="#index-g">G</a></li>
-		<li><a href="#index-h">H</a></li>
-		<li><a href="#index-i">I</a></li>
-		<li><a href="#index-j">J</a></li>
-		<li><a href="#index-k">K</a></li>
-		<li><a href="#index-l">L</a></li>
-		<li><a href="#index-m">M</a></li>
-		<li><a href="#index-n">N</a></li>
-		<li><a href="#index-o">O</a></li>
-		<li><a href="#index-p">P</a></li>
-		<li><a href="#index-q">Q</a></li>
-		<li><a href="#index-r">R</a></li>
-		<li><a href="#index-s">S</a></li>
-		<li><a href="#index-t">T</a></li>
-		<li><a href="#index-u">U</a></li>
-		<li><a href="#index-v">V</a></li>
-		<li><a href="#index-w">W</a></li>
-		<li><a href="#index-x">X</a></li>
-		<li><a href="#index-y">Y</a></li>
-		<li><a href="#index-z">Z</a></li>
+        <a href="#index-a"><li>A</li></a>
+        <a href="#index-b"><li>B</li></a>
+        <a href="#index-c"><li>C</li></a>
+        <a href="#index-d"><li>D</li></a>
+        <a href="#index-e"><li>E</li></a>
+		<a href="#index-f"><li>F</li></a>
+		<a href="#index-g"><li>G</li></a>
+		<a href="#index-h"><li>H</li></a>
+		<a href="#index-i"><li>I</li></a>
+		<a href="#index-j"><li>J</li></a>
+		<a href="#index-k"><li>K</li></a>
+		<a href="#index-l"><li>L</li></a>
+		<a href="#index-m"><li>M</li></a>
+		<a href="#index-n"><li>N</li></a>
+		<a href="#index-o"><li>O</li></a>
+		<a href="#index-p"><li>P</li></a>
+		<a href="#index-q"><li>Q</li></a>
+		<a href="#index-r"><li>R</li></a>
+		<a href="#index-s"><li>S</li></a>
+		<a href="#index-t"><li>T</li></a>
+		<a href="#index-u"><li>U</li></a>
+		<a href="#index-v"><li>V</li></a>
+		<a href="#index-w"><li>W</li></a>
+		<a href="#index-x"><li>X</li></a>
+		<a href="#index-y"><li>Y</li></a>
+		<a href="#index-z"><li>Z</li></a>
       </ul>
     </header>
     <div class="index">
